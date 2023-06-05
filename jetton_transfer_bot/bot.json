@@ -1,0 +1,9 @@
+{
+  "name": "Jetton Anomaly Transactions",
+  "description": "This bot detects all transactions of traded Jettons if transaction amount more than 3% of daily volume or more than 1k TON",
+  "bot_name": "JETTON-TRACKING-1",
+  "channel": "@JettonTransfers",
+  "tags": "Jetton, Transactions, Anomaly",
+  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "status": "active"
+}

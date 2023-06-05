@@ -1,0 +1,9 @@
+{
+  "name": "NFT Sales Bot",
+  "description": "This bot detects NFT Sales and throw additional alert for Fragment sales. By  itself, this bot  will be quite noisy.",
+  "bot_name": "NFT-SALES-1",
+  "channel": "@nftsalesalert",
+  "tags": "NFT, Transactions, Sales, Fragment",
+  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "status": "active"
+}

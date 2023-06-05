@@ -1,0 +1,9 @@
+{
+  "name": "DEXes Swaps Tracking",
+"description": "This bot detects all swaps on all DEXes (buy, sell, swap).",
+"bot_name": "DEX-SWAP-2",
+"channel": "@JettonDexesSwaps",
+"tags": "DEX, Swaps, Jetton",
+"repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+"status": "active"
+}

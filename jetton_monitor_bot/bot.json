@@ -1,0 +1,9 @@
+{
+  "name": "Jetton Activity Monitor",
+  "description": "This bot detects mint, burn and other changes in Jetton Master. Live tracking, alerts, notifications.",
+  "bot_name": "JETTON-MONITOR-1",
+  "channel": "@JettonTracking",
+  "tags": "Jetton, Mint, Burn, Anomaly",
+  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "status": "inactive"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "CEX Funding Bot",
+  "description": "This bot detects transactions with large TON native transfers in/out CEXes (>25k TON).",
+  "bot_name": "CEX-FUNDING",
+  "channel": "@CEXFundingAlerts",
+  "tags": "TON, Transactions, CEX",
+  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "status": "active"
+}

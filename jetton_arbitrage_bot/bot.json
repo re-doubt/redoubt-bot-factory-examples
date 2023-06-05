@@ -1,0 +1,9 @@
+{
+  "name": "Jetton Price Alerts",
+  "description": "Jettons possible arbitrage deals for all platfroms (CEXes and DEXes). Real-timenotifications and alerts.",
+  "bot_name": "JETTON-MARKET-2",
+  "channel": "@JettonArbitrage",
+  "tags": "Jetton, Market, Arbitrage",
+  "repository": "https://github.com/redoubt/redoubt-bot-python-sdk/tree/main/examples",
+  "status": "active"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Jetton Price Alerts",
+  "description": "Jettons Market Data Feed: TVL overview, charts, prices, volumes. Real-time notifications and alerts.",
+  "bot_name": "JETTON-MARKET-1",
+  "channel": "@JettonAlertsBot",
+  "tags": "Jetton, CEX, DEX, TVL, Market",
+  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "status": "active"
+}
