@@ -4,6 +4,6 @@
   "bot_name": "JETTON-MONITOR-1",
   "channel": "@JettonTracking",
   "tags": "Jetton, Mint, Burn, Anomaly",
-  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_monitor_bot",
   "status": "inactive"
 }

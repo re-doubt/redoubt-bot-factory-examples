@@ -4,6 +4,6 @@
   "bot_name": "SCAM-MESSAGES-1",
   "channel": "@ScamMessagesAlerts",
   "tags": "Scam, Transactions",
-  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/scam_messages_bot",
   "status": "inactive"
 }

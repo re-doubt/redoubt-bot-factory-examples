@@ -4,6 +4,6 @@
   "bot_name": "DEX-SWAP-1",
   "channel": "@JettonDexSwaps",
   "tags": "DeDust, Swaps, Jetton",
-  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_swap_bot",
   "status": "active"
 }

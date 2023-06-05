@@ -4,6 +4,6 @@
   "bot_name": "CEX-FUNDING",
   "channel": "@CEXFundingAlerts",
   "tags": "TON, Transactions, CEX",
-  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/cex_inout_bot",
   "status": "active"
 }

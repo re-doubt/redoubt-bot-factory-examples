@@ -4,6 +4,6 @@
   "bot_name": "JETTON-MARKET-1",
   "channel": "@JettonAlertsBot",
   "tags": "Jetton, CEX, DEX, TVL, Market",
-  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jettton_price_bot",
   "status": "active"
 }

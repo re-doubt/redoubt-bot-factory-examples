@@ -4,6 +4,6 @@
   "bot_name": "LARGE-TRANSFER-OUT",
   "channel": "@LargeTransfersAlerts",
   "tags": "TON, Transactions",
-  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/large_transfers_out",
   "status": "active"
 }

@@ -4,6 +4,6 @@
   "bot_name": "JETTON-MARKET-2",
   "channel": "@JettonArbitrage",
   "tags": "Jetton, Market, Arbitrage",
-  "repository": "https://github.com/redoubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_arbitrage_bot",
   "status": "active"
 }

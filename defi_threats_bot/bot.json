@@ -4,6 +4,6 @@
   "bot_name": "DEFI-THREAT-1",
   "channel": "@TonDeFiAlerts",
   "tags": "TON, DeFi, Threats, Alerts",
-  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/defi_threats_bot",
   "status": "active"
 }

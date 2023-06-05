@@ -4,6 +4,6 @@
   "bot_name": "NFT-SALES-1",
   "channel": "@nftsalesalert",
   "tags": "NFT, Transactions, Sales, Fragment",
-  "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_transfer_bot",
   "status": "active"
 }
