@@ -3,7 +3,7 @@
   "description": "This bot analyzes sentiment and emotion of transaction text message sent between addresses. Fired when a transaction contains a negative text message.",
   "bot_name": "SCAM-MESSAGES-1",
   "channel": "@ScamMessagesAlerts",
-  "tags": "Scam, Transactions",
+  "tags": "Scam, Transactions, Alerts",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/scam_messages_bot",
   "status": "inactive"
 }

@@ -22,7 +22,7 @@
         "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. throw alerts when the two sides of the bridge are unexpectedly are out of balance.",
         "bot_name": "DEX-THREATS",
         "channel": "@TonDexAlerts",
-        "tags": "TON, Attack, DEX, Threats, Alerts",
+        "tags": "TON, DEX, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_threats_bot",
         "status": "inactive"
     },
@@ -40,7 +40,7 @@
         "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. throw alerts when the two sides of the bridge are unexpectedly are out of balance.",
         "bot_name": "BRIDGE-THREATS",
         "channel": "@TonBridgeAlerts",
-        "tags": "TON, Attack, Bridge, Threats, Alerts",
+        "tags": "TON, Bridge, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/bridge_threats_bot",
         "status": "inactive"
     },
@@ -58,7 +58,7 @@
         "description": "This bot analyzes sentiment and emotion of transaction text message sent between addresses. Fired when a transaction contains a negative text message.",
         "bot_name": "SCAM-MESSAGES-1",
         "channel": "@ScamMessagesAlerts",
-        "tags": "Scam, Transactions",
+        "tags": "Scam, Transactions, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/scam_messages_bot",
         "status": "inactive"
     },
@@ -67,7 +67,7 @@
         "description": "This bot detects transactions with large TON native transfers (>50k TON). By itself, this bot will be quite noisy.",
         "bot_name": "LARGE-TRANSFER-OUT",
         "channel": "@LargeTransfersAlerts",
-        "tags": "TON, Transactions",
+        "tags": "TON, Transactions, Anomaly, Funding",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/large_transfers_out",
         "status": "active"
     },
@@ -76,7 +76,7 @@
         "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. Identifies when the voting power changes signficantly.",
         "bot_name": "GOVERNANCE-THREATS",
         "channel": "@TonGOVERNANCEAlerts",
-        "tags": "TON, Attack, Governance, Threats, Alerts",
+        "tags": "TON, Governance, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/governance_threats_bot",
         "status": "inactive"
     },
@@ -94,7 +94,7 @@
         "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. Alerts when an NFT is created in a way that appears to be minted from another account or alerts on evidence of wash trading",
         "bot_name": "NFT-THREATS",
         "channel": "@TonNFTAlerts",
-        "tags": "TON, Attack, NFT, Threats, Alerts",
+        "tags": "TON, NFT, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_threats_bot",
         "status": "inactive"
     },
@@ -121,7 +121,7 @@
         "description": "This bot detects transactions with large TON native transfers in/out CEXes (>25k TON).",
         "bot_name": "CEX-FUNDING",
         "channel": "@CEXFundingAlerts",
-        "tags": "TON, Transactions, CEX",
+        "tags": "TON, Transactions, CEX, Funding",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/cex_inout_bot",
         "status": "active"
     },
@@ -148,7 +148,7 @@
         "description": "This bot detects all swaps on DeDust DEX (buy, sell, swap).",
         "bot_name": "DEX-SWAP-1",
         "channel": "@JettonDexSwaps",
-        "tags": "DeDust, Swaps, Jetton",
+        "tags": "DeDust, DEX, Swaps, Jetton",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_swap_bot",
         "status": "active"
     }

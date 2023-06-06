@@ -3,7 +3,7 @@
   "description": "This bot detects all swaps on DeDust DEX (buy, sell, swap).",
   "bot_name": "DEX-SWAP-1",
   "channel": "@JettonDexSwaps",
-  "tags": "DeDust, Swaps, Jetton",
+  "tags": "DeDust, DEX, Swaps, Jetton",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_swap_bot",
   "status": "active"
 }

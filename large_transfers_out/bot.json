@@ -3,7 +3,7 @@
   "description": "This bot detects transactions with large TON native transfers (>50k TON). By itself, this bot will be quite noisy.",
   "bot_name": "LARGE-TRANSFER-OUT",
   "channel": "@LargeTransfersAlerts",
-  "tags": "TON, Transactions",
+  "tags": "TON, Transactions, Anomaly, Funding",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/large_transfers_out",
   "status": "active"
 }

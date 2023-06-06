@@ -3,7 +3,7 @@
   "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. throw alerts when the two sides of the bridge are unexpectedly are out of balance.",
   "bot_name": "DEX-THREATS",
   "channel": "@TonDexAlerts",
-  "tags": "TON, Attack, DEX, Threats, Alerts",
+  "tags": "TON, DEX, Threats, Alerts",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_threats_bot",
   "status": "inactive"
 }
