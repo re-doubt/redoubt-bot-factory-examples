@@ -1,0 +1,9 @@
+{
+  "name": "Bridge Threats Detection",
+  "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. throw alerts when the two sides of the bridge are unexpectedly are out of balance.",
+  "bot_name": "BRIDGE-THREATS",
+  "channel": "@TonBridgeAlerts",
+  "tags": "TON, Attack, Bridge, Threats, Alerts",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/bridge_threats_bot",
+  "status": "inactive"
+}

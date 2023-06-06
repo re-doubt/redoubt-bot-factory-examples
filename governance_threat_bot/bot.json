@@ -1,0 +1,9 @@
+{
+  "name": "Governance Threats Detection",
+  "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. Identifies when the voting power changes signficantly.",
+  "bot_name": "GOVERNANCE-THREATS",
+  "channel": "@TonGOVERNANCEAlerts",
+  "tags": "TON, Attack, Governance, Threats, Alerts",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/governance_threats_bot",
+  "status": "inactive"
+}

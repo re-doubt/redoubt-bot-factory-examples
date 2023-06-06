@@ -5,7 +5,7 @@
         "bot_name": "JETTON-TRACKING-1",
         "channel": "@JettonTransfers",
         "tags": "Jetton, Transactions, Anomaly",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_transfer_bot",
         "status": "active"
     },
     "DEX-SWAP-2": {
@@ -17,13 +17,40 @@
         "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
         "status": "active"
     },
+    "DEX-THREATS": {
+        "name": "DEX Threats Detection",
+        "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. throw alerts when the two sides of the bridge are unexpectedly are out of balance.",
+        "bot_name": "DEX-THREATS",
+        "channel": "@TonDexAlerts",
+        "tags": "TON, Attack, DEX, Threats, Alerts",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_threats_bot",
+        "status": "inactive"
+    },
     "JETTON-MONITOR-1": {
         "name": "Jetton Activity Monitor",
         "description": "This bot detects mint, burn and other changes in Jetton Master. Live tracking, alerts, notifications.",
         "bot_name": "JETTON-MONITOR-1",
         "channel": "@JettonTracking",
         "tags": "Jetton, Mint, Burn, Anomaly",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_monitor_bot",
+        "status": "inactive"
+    },
+    "BRIDGE-THREATS": {
+        "name": "Bridge Threats Detection",
+        "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. throw alerts when the two sides of the bridge are unexpectedly are out of balance.",
+        "bot_name": "BRIDGE-THREATS",
+        "channel": "@TonBridgeAlerts",
+        "tags": "TON, Attack, Bridge, Threats, Alerts",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/bridge_threats_bot",
+        "status": "inactive"
+    },
+    "SCAM-DETECTOR-1": {
+        "name": "Scam Detector Feed",
+        "description": "The Scam Detector bot combines past alerts under a common address from a variety of underlying base bots to emit a high precision alert. It does so by mapping each alert to the four attack stages utilizing a heuristic detection approach.",
+        "bot_name": "SCAM-DETECTOR-1",
+        "channel": "@CEXFundingAlerts",
+        "tags": "TON, Attack, Scam, Alerts",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dcam_detector_bot",
         "status": "inactive"
     },
     "SCAM-MESSAGES-1": {
@@ -32,7 +59,7 @@
         "bot_name": "SCAM-MESSAGES-1",
         "channel": "@ScamMessagesAlerts",
         "tags": "Scam, Transactions",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/scam_messages_bot",
         "status": "inactive"
     },
     "LARGE-TRANSFER-OUT": {
@@ -41,8 +68,17 @@
         "bot_name": "LARGE-TRANSFER-OUT",
         "channel": "@LargeTransfersAlerts",
         "tags": "TON, Transactions",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/large_transfers_out",
         "status": "active"
+    },
+    "GOVERNANCE-THREATS": {
+        "name": "Governance Threats Detection",
+        "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. Identifies when the voting power changes signficantly.",
+        "bot_name": "GOVERNANCE-THREATS",
+        "channel": "@TonGOVERNANCEAlerts",
+        "tags": "TON, Attack, Governance, Threats, Alerts",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/governance_threats_bot",
+        "status": "inactive"
     },
     "NFT-SALES-1": {
         "name": "NFT Sales Bot",
@@ -50,8 +86,17 @@
         "bot_name": "NFT-SALES-1",
         "channel": "@nftsalesalert",
         "tags": "NFT, Transactions, Sales, Fragment",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_transfer_bot",
         "status": "active"
+    },
+    "NFT-THREATS": {
+        "name": "NFT Threats Detection",
+        "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. Alerts when an NFT is created in a way that appears to be minted from another account or alerts on evidence of wash trading",
+        "bot_name": "NFT-THREATS",
+        "channel": "@TonNFTAlerts",
+        "tags": "TON, Attack, NFT, Threats, Alerts",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_threats_bot",
+        "status": "inactive"
     },
     "JETTON-MARKET-1": {
         "name": "Jetton Price Alerts",
@@ -59,8 +104,17 @@
         "bot_name": "JETTON-MARKET-1",
         "channel": "@JettonAlertsBot",
         "tags": "Jetton, CEX, DEX, TVL, Market",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jettton_price_bot",
         "status": "active"
+    },
+    "ATTACK-DETECTOR": {
+        "name": "Attack Detector Feed",
+        "description": "The Attack Detector bot combines past alerts under a common address from a variety of underlying base bots to emit a high precision alert. It does so by mapping each alert to the four attack stages utilizing an anomaly as well as heuristic detection approach.",
+        "bot_name": "ATTACK-DETECTOR",
+        "channel": "@AttackDetectorFeed",
+        "tags": "TON, Attack, Scam, Alerts",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/attack_detector_bot",
+        "status": "inactive"
     },
     "CEX-FUNDING": {
         "name": "CEX Funding Bot",
@@ -68,16 +122,16 @@
         "bot_name": "CEX-FUNDING",
         "channel": "@CEXFundingAlerts",
         "tags": "TON, Transactions, CEX",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/cex_inout_bot",
         "status": "active"
     },
-    "DEFI-THREAT-1": {
+    "DEFI-THREATS": {
         "name": "DeFI Threats Detection",
-        "description": "This bot detects threats in TON DeFi Ecosystem.",
-        "bot_name": "DEFI-THREAT-1",
+        "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. Identifies when the balance of an account decreases significantly or throw alerts on anomalous transaction volume (both successful and failed).",
+        "bot_name": "DEFI-THREATS",
         "channel": "@TonDeFiAlerts",
         "tags": "TON, DeFi, Threats, Alerts",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/defi_threats_bot",
         "status": "active"
     },
     "JETTON-MARKET-2": {
@@ -86,7 +140,7 @@
         "bot_name": "JETTON-MARKET-2",
         "channel": "@JettonArbitrage",
         "tags": "Jetton, Market, Arbitrage",
-        "repository": "https://github.com/redoubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_arbitrage_bot",
         "status": "active"
     },
     "DEX-SWAP-1": {
@@ -95,7 +149,7 @@
         "bot_name": "DEX-SWAP-1",
         "channel": "@JettonDexSwaps",
         "tags": "DeDust, Swaps, Jetton",
-        "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_swap_bot",
         "status": "active"
     }
 }

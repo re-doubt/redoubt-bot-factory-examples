@@ -1,0 +1,9 @@
+{
+  "name": "Attack Detector Feed",
+  "description": "The Attack Detector bot combines past alerts under a common address from a variety of underlying base bots to emit a high precision alert. It does so by mapping each alert to the four attack stages utilizing an anomaly as well as heuristic detection approach.",
+  "bot_name": "ATTACK-DETECTOR",
+  "channel": "@AttackDetectorFeed",
+  "tags": "TON, Attack, Scam, Alerts",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/attack_detector_bot",
+  "status": "inactive"
+}

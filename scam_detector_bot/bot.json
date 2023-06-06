@@ -1,0 +1,9 @@
+{
+  "name": "Scam Detector Feed",
+  "description": "The Scam Detector bot combines past alerts under a common address from a variety of underlying base bots to emit a high precision alert. It does so by mapping each alert to the four attack stages utilizing a heuristic detection approach.",
+  "bot_name": "SCAM-DETECTOR-1",
+  "channel": "@CEXFundingAlerts",
+  "tags": "TON, Attack, Scam, Alerts",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dcam_detector_bot",
+  "status": "inactive"
+}

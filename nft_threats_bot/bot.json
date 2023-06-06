@@ -1,0 +1,9 @@
+{
+  "name": "NFT Threats Detection",
+  "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. Alerts when an NFT is created in a way that appears to be minted from another account or alerts on evidence of wash trading",
+  "bot_name": "NFT-THREATS",
+  "channel": "@TonNFTAlerts",
+  "tags": "TON, Attack, NFT, Threats, Alerts",
+  "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_threats_bot",
+  "status": "inactive"
+}

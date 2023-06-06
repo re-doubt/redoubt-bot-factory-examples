@@ -1,7 +1,7 @@
 {
   "name": "DeFI Threats Detection",
-  "description": "This bot detects threats in TON DeFi Ecosystem.",
-  "bot_name": "DEFI-THREAT-1",
+  "description": "Monitors blockchain transactions for specified events emitted from specified contract addresses. E.g. Identifies when the balance of an account decreases significantly or throw alerts on anomalous transaction volume (both successful and failed).",
+  "bot_name": "DEFI-THREATS",
   "channel": "@TonDeFiAlerts",
   "tags": "TON, DeFi, Threats, Alerts",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/defi_threats_bot",
