@@ -5,5 +5,7 @@
   "channel": "@CEXFundingAlerts",
   "tags": "TON, Transactions, CEX, Funding",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/cex_inout_bot",
+  "author": "maksymds",
+  "created_at": "",
   "status": "active"
 }

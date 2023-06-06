@@ -5,5 +5,7 @@
   "channel": "@LargeTransfersAlerts",
   "tags": "TON, Transactions, Anomaly, Funding",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/large_transfers_out",
+  "author": "shuva10v",
+  "created_at": "",
   "status": "active"
 }

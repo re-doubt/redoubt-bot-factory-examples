@@ -6,6 +6,8 @@
         "channel": "@JettonTransfers",
         "tags": "Jetton, Transactions, Anomaly",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_transfer_bot",
+        "author": "shuva10v",
+        "created_at": "",
         "status": "active"
     },
     "DEX-SWAP-2": {
@@ -15,6 +17,8 @@
         "channel": "@JettonDexesSwaps",
         "tags": "DEX, Swaps, Jetton",
         "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
+        "author": "maksymds",
+        "created_at": "shuva10v",
         "status": "active"
     },
     "DEX-THREATS": {
@@ -24,6 +28,8 @@
         "channel": "@TonDexAlerts",
         "tags": "TON, DEX, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_threats_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "inactive"
     },
     "JETTON-MONITOR-1": {
@@ -33,6 +39,8 @@
         "channel": "@JettonTracking",
         "tags": "Jetton, Mint, Burn, Anomaly",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_monitor_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "inactive"
     },
     "BRIDGE-THREATS": {
@@ -42,6 +50,8 @@
         "channel": "@TonBridgeAlerts",
         "tags": "TON, Bridge, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/bridge_threats_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "inactive"
     },
     "SCAM-DETECTOR-1": {
@@ -51,6 +61,8 @@
         "channel": "@CEXFundingAlerts",
         "tags": "TON, Attack, Scam, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dcam_detector_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "inactive"
     },
     "SCAM-MESSAGES-1": {
@@ -60,6 +72,8 @@
         "channel": "@ScamMessagesAlerts",
         "tags": "Scam, Transactions, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/scam_messages_bot",
+        "author": "shuva10v",
+        "created_at": "",
         "status": "inactive"
     },
     "LARGE-TRANSFER-OUT": {
@@ -69,6 +83,8 @@
         "channel": "@LargeTransfersAlerts",
         "tags": "TON, Transactions, Anomaly, Funding",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/large_transfers_out",
+        "author": "shuva10v",
+        "created_at": "",
         "status": "active"
     },
     "GOVERNANCE-THREATS": {
@@ -78,6 +94,8 @@
         "channel": "@TonGOVERNANCEAlerts",
         "tags": "TON, Governance, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/governance_threats_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "inactive"
     },
     "NFT-SALES-1": {
@@ -87,6 +105,8 @@
         "channel": "@nftsalesalert",
         "tags": "NFT, Transactions, Sales, Fragment",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_transfer_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "active"
     },
     "NFT-THREATS": {
@@ -96,6 +116,8 @@
         "channel": "@TonNFTAlerts",
         "tags": "TON, NFT, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_threats_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "inactive"
     },
     "JETTON-MARKET-1": {
@@ -105,6 +127,8 @@
         "channel": "@JettonAlertsBot",
         "tags": "Jetton, CEX, DEX, TVL, Market",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jettton_price_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "active"
     },
     "ATTACK-DETECTOR": {
@@ -114,6 +138,8 @@
         "channel": "@AttackDetectorFeed",
         "tags": "TON, Attack, Scam, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/attack_detector_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "inactive"
     },
     "CEX-FUNDING": {
@@ -123,6 +149,8 @@
         "channel": "@CEXFundingAlerts",
         "tags": "TON, Transactions, CEX, Funding",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/cex_inout_bot",
+        "author": "maksymds",
+        "created_at": "",
         "status": "active"
     },
     "DEFI-THREATS": {
@@ -132,6 +160,8 @@
         "channel": "@TonDeFiAlerts",
         "tags": "TON, DeFi, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/defi_threats_bot",
+        "author": "shuva10v",
+        "created_at": "",
         "status": "active"
     },
     "JETTON-MARKET-2": {
@@ -141,6 +171,8 @@
         "channel": "@JettonArbitrage",
         "tags": "Jetton, Market, Arbitrage",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_arbitrage_bot",
+        "author": "shuva10v",
+        "created_at": "",
         "status": "active"
     },
     "DEX-SWAP-1": {
@@ -150,6 +182,8 @@
         "channel": "@JettonDexSwaps",
         "tags": "DeDust, DEX, Swaps, Jetton",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_swap_bot",
+        "author": "shuva10v",
+        "created_at": "",
         "status": "active"
     }
 }

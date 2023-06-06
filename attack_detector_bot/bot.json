@@ -5,5 +5,7 @@
   "channel": "@AttackDetectorFeed",
   "tags": "TON, Attack, Scam, Alerts",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/attack_detector_bot",
+  "author": "maksymds",
+  "created_at": "",
   "status": "inactive"
 }
