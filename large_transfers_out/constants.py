@@ -9,5 +9,5 @@ TG_API_URL = os.getenv('TG_API_URL')
 CHAT_ID = os.getenv('CHAT_ID')
 TONVIEWER = os.getenv('TONVIEWER')  # FIXME all links to redoubt
 TONSCAN = os.getenv('TONSCAN')
-TRANSFER_THRESHOLD = os.getenv('TRANSFER_THRESHOLD')
+TRANSFER_THRESHOLD = int(os.getenv('TRANSFER_THRESHOLD'))
 

@@ -67,7 +67,7 @@ async def handler(obj, session):
             amount_out = float(obj['data']['amount_out']) / pow(10, decimals_out)
 
             tg_message += f"Trading: 🟢🔴#BUYSELL\n"
-            tg_message = f"#{jetton_out[0]['symbol']}: {human_format(round(amount_out, 4))} to " \
+            tg_message += f"#{jetton_out[0]['symbol']}: {human_format(round(amount_out, 4))} to " \
                          f"#{jetton_in[0]['symbol']}: {human_format(round(amount_in, 4))}"
 
         elif jetton_in:

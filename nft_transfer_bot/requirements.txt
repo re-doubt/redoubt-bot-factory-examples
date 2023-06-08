@@ -1,4 +1,4 @@
 loguru==0.7.0
-redoubt_agent==0.1.9
+redoubt_agent==0.1.99
 requests
 bs4
