@@ -52,7 +52,7 @@ class JettonTransfersBot:
 
         # Jetton Market Data
         if not jetton_address in self.jetton_market_data.keys() or self.jetton_market_data[jetton_address][
-            'time'] < now - timedelta(TIMEDELTA):
+            'time'] < now - timedelta(minutes=TIMEDELTA):
             market_data = await session.execute(gql("""
             query jetton {
                 redoubt_jettons_market_data(
