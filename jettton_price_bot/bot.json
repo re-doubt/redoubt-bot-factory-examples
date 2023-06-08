@@ -6,6 +6,7 @@
   "tags": "Jetton, CEX, DEX, TVL, Market",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jettton_price_bot",
   "author": "maksymds",
-  "created_at": "",
-  "status": "active"
+  "created_at": "23-02-2023",
+  "status": "active",
+  "publish": "true"
 }

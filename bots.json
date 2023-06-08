@@ -7,8 +7,9 @@
         "tags": "Jetton, Transactions, Anomaly",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_transfer_bot",
         "author": "shuva10v",
-        "created_at": "",
-        "status": "active"
+        "created_at": "12-04-2023",
+        "status": "active",
+        "publish": "true"
     },
     "DEX-SWAP-2": {
         "name": "DEXes Swaps Tracking",
@@ -18,8 +19,9 @@
         "tags": "DEX, Swaps, Jetton",
         "repository": "https://github.com/re-doubt/redoubt-bot-python-sdk/tree/main/examples",
         "author": "maksymds",
-        "created_at": "shuva10v",
-        "status": "active"
+        "created_at": "05-04-2023",
+        "status": "active",
+        "publish": "true"
     },
     "DEX-THREATS": {
         "name": "DEX Threats Detection",
@@ -29,8 +31,9 @@
         "tags": "TON, DEX, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_threats_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "inactive"
+        "created_at": "08-06-2023",
+        "status": "inactive",
+        "publish": "true"
     },
     "JETTON-MONITOR-1": {
         "name": "Jetton Activity Monitor",
@@ -40,8 +43,9 @@
         "tags": "Jetton, Mint, Burn, Anomaly",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_monitor_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "inactive"
+        "created_at": "05-03-2023",
+        "status": "inactive",
+        "publish": "true"
     },
     "BRIDGE-THREATS": {
         "name": "Bridge Threats Detection",
@@ -51,8 +55,9 @@
         "tags": "TON, Bridge, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/bridge_threats_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "inactive"
+        "created_at": "05-06-2023",
+        "status": "inactive",
+        "publish": "true"
     },
     "SCAM-DETECTOR-1": {
         "name": "Scam Detector Feed",
@@ -62,8 +67,9 @@
         "tags": "TON, Attack, Scam, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dcam_detector_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "inactive"
+        "created_at": "10-06-2023",
+        "status": "inactive",
+        "publish": "true"
     },
     "SCAM-MESSAGES-1": {
         "name": "Scam Messages Bot",
@@ -73,8 +79,9 @@
         "tags": "Scam, Transactions, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/scam_messages_bot",
         "author": "shuva10v",
-        "created_at": "",
-        "status": "inactive"
+        "created_at": "09-06-2023",
+        "status": "inactive",
+        "publish": "true"
     },
     "LARGE-TRANSFER-OUT": {
         "name": "Large Transfer Out Bot",
@@ -84,8 +91,9 @@
         "tags": "TON, Transactions, Anomaly, Funding",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/large_transfers_out",
         "author": "shuva10v",
-        "created_at": "",
-        "status": "active"
+        "created_at": "01-06-2023",
+        "status": "active",
+        "publish": "true"
     },
     "GOVERNANCE-THREATS": {
         "name": "Governance Threats Detection",
@@ -95,8 +103,9 @@
         "tags": "TON, Governance, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/governance_threats_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "inactive"
+        "created_at": "08-06-2023",
+        "status": "inactive",
+        "publish": "true"
     },
     "NFT-SALES-1": {
         "name": "NFT Sales Bot",
@@ -106,8 +115,9 @@
         "tags": "NFT, Transactions, Sales, Fragment",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_transfer_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "active"
+        "created_at": "03-06-2023",
+        "status": "active",
+        "publish": "true"
     },
     "NFT-THREATS": {
         "name": "NFT Threats Detection",
@@ -118,7 +128,8 @@
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/nft_threats_bot",
         "author": "maksymds",
         "created_at": "",
-        "status": "inactive"
+        "status": "inactive",
+        "publish": "true"
     },
     "JETTON-MARKET-1": {
         "name": "Jetton Price Alerts",
@@ -128,8 +139,9 @@
         "tags": "Jetton, CEX, DEX, TVL, Market",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jettton_price_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "active"
+        "created_at": "23-02-2023",
+        "status": "active",
+        "publish": "true"
     },
     "ATTACK-DETECTOR": {
         "name": "Attack Detector Feed",
@@ -139,8 +151,9 @@
         "tags": "TON, Attack, Scam, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/attack_detector_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "inactive"
+        "created_at": "05-06-2023",
+        "status": "inactive",
+        "publish": "true"
     },
     "CEX-FUNDING": {
         "name": "CEX Funding Bot",
@@ -150,8 +163,9 @@
         "tags": "TON, Transactions, CEX, Funding",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/cex_inout_bot",
         "author": "maksymds",
-        "created_at": "",
-        "status": "active"
+        "created_at": "05-05-2023",
+        "status": "active",
+        "publish": "true"
     },
     "DEFI-THREATS": {
         "name": "DeFI Threats Detection",
@@ -161,8 +175,9 @@
         "tags": "TON, DeFi, Threats, Alerts",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/defi_threats_bot",
         "author": "shuva10v",
-        "created_at": "",
-        "status": "active"
+        "created_at": "04-04-2023",
+        "status": "active",
+        "publish": "true"
     },
     "JETTON-MARKET-2": {
         "name": "Jetton Price Alerts",
@@ -172,8 +187,9 @@
         "tags": "Jetton, Market, Arbitrage",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_arbitrage_bot",
         "author": "shuva10v",
-        "created_at": "",
-        "status": "active"
+        "created_at": "15-02-2023",
+        "status": "active",
+        "publish": "true"
     },
     "DEX-SWAP-1": {
         "name": "DeDust Swaps Tracking",
@@ -183,7 +199,8 @@
         "tags": "DeDust, DEX, Swaps, Jetton",
         "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/dex_swap_bot",
         "author": "shuva10v",
-        "created_at": "",
-        "status": "active"
+        "created_at": "05-05-2023",
+        "status": "active",
+        "publish": "true"
     }
 }

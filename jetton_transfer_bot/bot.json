@@ -6,6 +6,7 @@
   "tags": "Jetton, Transactions, Anomaly",
   "repository": "https://github.com/re-doubt/redoubt-bot-factory-examples/tree/main/jetton_transfer_bot",
   "author": "shuva10v",
-  "created_at": "",
-  "status": "active"
+  "created_at": "12-04-2023",
+  "status": "active",
+  "publish": "true"
 }
