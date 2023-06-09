@@ -1,4 +1,4 @@
 gql==3.4.1
 loguru==0.7.0
-redoubt_agent==0.1.99
+redoubt_agent==0.2.0
 requests

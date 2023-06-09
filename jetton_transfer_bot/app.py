@@ -3,7 +3,6 @@
 import asyncio
 import requests
 
-from gql import gql
 from loguru import logger
 from redoubt_agent import RedoubtEventsStream
 from datetime import datetime, timezone, timedelta
@@ -23,7 +22,7 @@ class JettonTransfersBot:
         self.stream = RedoubtEventsStream(self.api_key)
         self.jetton_market_data = {}
 
-    async def handler(self, obj, session):
+    async def handler(self, obj):
         now = datetime.now().astimezone(timezone.utc)
         market_data = {}
 
@@ -31,7 +30,7 @@ class JettonTransfersBot:
         jetton_address = obj['data']['master']
 
         # Jetton symbol and decimals
-        jetton_data = await session.execute(gql("""
+        jetton_data = await self.stream.execute("""
             query jetton {
                 redoubt_jetton_master(where: {address: {_eq: "%s"}}) {
                     address
@@ -40,7 +39,7 @@ class JettonTransfersBot:
                     admin_address
                 }
             }
-        """ % jetton_address))
+        """ % jetton_address)
 
         if len(jetton_data['redoubt_jetton_master']) == 0:
             logger.info("Jetton master info not found")
@@ -53,7 +52,7 @@ class JettonTransfersBot:
         # Jetton Market Data
         if not jetton_address in self.jetton_market_data.keys() or self.jetton_market_data[jetton_address][
             'time'] < now - timedelta(minutes=TIMEDELTA):
-            market_data = await session.execute(gql("""
+            market_data = await self.stream.execute("""
             query jetton {
                 redoubt_jettons_market_data(
                       where: {address: {_eq: "%s"}},
@@ -66,7 +65,7 @@ class JettonTransfersBot:
                         market_volume_ton
                     }
                 }
-                """ % jetton_address))
+                """ % jetton_address)
 
             # Check is traded Jetton
             if market_data['redoubt_jettons_market_data']:
