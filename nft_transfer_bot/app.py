@@ -29,7 +29,7 @@ class NFTSalesBot:
         self.api_key = api_key
         self.stream = RedoubtEventsStream(self.api_key)
 
-    async def handler(self, obj, session):
+    async def handler(self, obj):
 
         logger.info(obj)
 

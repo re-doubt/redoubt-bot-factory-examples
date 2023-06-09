@@ -3,7 +3,6 @@
 import asyncio
 import requests
 
-from gql import gql
 from loguru import logger
 from redoubt_agent import RedoubtEventsStream
 from constants import *
@@ -24,10 +23,10 @@ def human_format(num):
     return '%.2f%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
 
 
-async def handler(obj, session):
+async def handler(obj, stream):
     logger.info(obj)
 
-    asset_in_data = await session.execute(gql("""
+    asset_in_data = await stream.execute("""
         query asset_in {
             redoubt_jetton_master(where: {address: {_eq: "%s"}}) {
                 address
@@ -36,9 +35,9 @@ async def handler(obj, session):
                 admin_address
             }
         }
-    """ % obj['data']['asset_in']))
+    """ % obj['data']['asset_in'])
 
-    asset_out_data = await session.execute(gql("""
+    asset_out_data = await stream.execute("""
          query asset_out {
              redoubt_jetton_master(where: {address: {_eq: "%s"}}) {
                  address
@@ -47,7 +46,7 @@ async def handler(obj, session):
                  admin_address
              }
          }
-     """ % obj['data']['asset_out']))
+     """ % obj['data']['asset_out'])
 
     jetton_in = asset_in_data['redoubt_jetton_master']
     jetton_out = asset_out_data['redoubt_jetton_master']
@@ -91,7 +90,7 @@ async def handler(obj, session):
 async def run_bot():
     logger.info("Running new DeDust Swaps bot")
     stream = RedoubtEventsStream(api_key=REDOUBT_API_KEY)  # FIXME - use env
-    await stream.subscribe(handler, scope="DEX", event_type='Swap')
+    await stream.subscribe(lambda e: handler(e, stream), scope="DEX", event_type='Swap')
 
 
 if __name__ == "__main__":

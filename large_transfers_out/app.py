@@ -27,7 +27,7 @@ def human_format(num):
     return '%.2f%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
 
 
-async def handler(obj, session):
+async def handler(obj):
     logger.info(obj)
 
     if obj['data']['amount'] >= TRANSFER_THRESHOLD:

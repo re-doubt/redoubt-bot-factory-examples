@@ -7,6 +7,6 @@ TG_API_URL = os.getenv('TG_API_URL')
 CHAT_ID = os.getenv('CHAT_ID')
 TONSCAN = os.getenv('TONSCAN')  # FIXME all links to redoubt
 TIMEDELTA = os.getenv('TIMEDELTA')
-VOLUME_THRESHOLD = int(os.getenv('VOLUME_THRESHOLD'))
+VOLUME_THRESHOLD = float(os.getenv('VOLUME_THRESHOLD'))
 TON_THRESHOLD = int(os.getenv('TON_THRESHOLD'))
 WRAPPED_TON = ['TON', 'WTON', 'pTON', 'jTON', 'wTON', 'JTON']
