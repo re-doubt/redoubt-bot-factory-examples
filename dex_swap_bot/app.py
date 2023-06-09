@@ -7,6 +7,7 @@ from loguru import logger
 from redoubt_agent import RedoubtEventsStream
 from constants import *
 
+stream = RedoubtEventsStream(api_key=REDOUBT_API_KEY)
 
 def send_message_to_telegram(message=None, api_url=TG_API_URL, chat_id=CHAT_ID, parse_mode='HTML'):
     response = requests.post(api_url + '/sendMessage',
@@ -21,7 +22,7 @@ def human_format(num):
         num /= 1000.0
     return f'%.2f%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
 
-async def handler(obj, stream):
+async def handler(obj):
     logger.info(obj)
 
     asset_in_data = await stream.execute("""
@@ -92,8 +93,7 @@ async def handler(obj, stream):
 
 async def run_bot():
     logger.info("Running new DEXes Swaps bot")
-    stream = RedoubtEventsStream(api_key=REDOUBT_API_KEY)  #  FIXME - use env
-    await stream.subscribe(lambda e: handler(e, stream), scope="DEX", event_type='Swap')
+    await stream.subscribe(handler, scope="DEX", event_type='Swap')
 
 
 if __name__ == "__main__":
