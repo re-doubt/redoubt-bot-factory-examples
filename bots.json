@@ -208,7 +208,7 @@
         "description": "New TON Jettons and updates",
         "bot_name": "TOKEN-INSIDE",
         "channel": "@token_inside",
-        "tags": "Jetton, Anomaly, Burn, Mint",
+        "tags": "Jetton, Burn, Mint",
         "repository": "",
         "author": "marsitan",
         "created_at": "01-01-2023",
