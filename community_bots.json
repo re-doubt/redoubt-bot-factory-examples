@@ -46,5 +46,53 @@
     "created_at": "01-02-2023",
     "status": "active",
     "publish": "true"
+  },
+  {
+    "name": "DeDust Jetton Swaps",
+    "description": "DeDust JettonSwaps",
+    "bot_name": "DEDUST-JETTON-SWAPS-2",
+    "channel": "@JettonSwaps",
+    "tags": "Jetton, DeDust, Swaps",
+    "repository": "",
+    "author": "dogceo",
+    "created_at": "01-03-2023",
+    "status": "active",
+    "publish": "true"
+  },
+  {
+    "name": "KINGY Price",
+    "description": "KINGY Price Alerts",
+    "bot_name": "KINGY-JETTON-PRICE",
+    "channel": "@KingyruPrice",
+    "tags": "Jetton, KINGY, Price",
+    "repository": "",
+    "author": "shibdev",
+    "created_at": "01-04-2023",
+    "status": "active",
+    "publish": "true"
+  },
+  {
+    "name": "SCALE Price",
+    "description": "SCALE Price Alerts",
+    "bot_name": "SCALE-JETTON-PRICE",
+    "channel": "@ScalePrice",
+    "tags": "Jetton, SCALE, Price",
+    "repository": "",
+    "author": "shibdev",
+    "created_at": "01-04-2023",
+    "status": "active",
+    "publish": "true"
+  },
+  {
+    "name": "DHD Price",
+    "description": "DHD Price Alerts",
+    "bot_name": "DHD-JETTON-PRICE",
+    "channel": "@DhdPrice",
+    "tags": "Jetton, DHD, Price",
+    "repository": "",
+    "author": "shibdev",
+    "created_at": "01-04-2023",
+    "status": "active",
+    "publish": "true"
   }
 ]
