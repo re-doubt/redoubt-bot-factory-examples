@@ -34,5 +34,17 @@
     "created_at": "01-06-2023",
     "status": "active",
     "publish": "true"
+  },
+  {
+    "name": "DeDust Jetton Price Alerts",
+    "description": "DeDust Jetton Price Alerts",
+    "bot_name": "DEDUST-JETTON-PRICE",
+    "channel": "@jettoncap",
+    "tags": "Jetton, DeDust, Market",
+    "repository": "",
+    "author": "dogceo",
+    "created_at": "01-02-2023",
+    "status": "active",
+    "publish": "true"
   }
 ]
