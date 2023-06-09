@@ -75,7 +75,7 @@ async def handler(obj):
             amount_in = float(obj['data']['amount_in'])/pow(10, decimals_in)
             tg_message += f"Trading: 🔴#SELL\n"
             tg_message += f"""Amount: {human_format(round(amount_in, 2))} #{jetton_in[0]['symbol']} \n"""
-            tg_message += f"Price: {(round(float(obj['data']['amount_out'])/pow(10, 9)) / amount_in, 6)}\n"
+            tg_message += f"Price: {round((float(obj['data']['amount_out'])/pow(10, 9)) / amount_in, 6)}\n"
 
         elif jetton_out:
             decimals_out = jetton_out[0].get("decimals") if jetton_out[0].get("decimals") else 9
