@@ -20,7 +20,7 @@ def human_format(num):
     while abs(num) >= 1000:
         magnitude += 1
         num /= 1000.0
-    return f'%.2f%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
+    return f'%.3f%s' % (num, ['', 'K', 'M', 'G', 'T', 'P'][magnitude])
 
 async def handler(obj):
     logger.info(obj)
@@ -82,7 +82,7 @@ async def handler(obj):
             amount_out = float(obj['data']['amount_out']) / pow(10, decimals_out)
             tg_message += f"Trading: 🟢#BUY\n"
             tg_message += f"""Amount: {human_format(round(amount_out, 4))} #{jetton_out[0]['symbol']}\n"""
-            tg_message += f"Price: {round(amount_out/(float(obj['data']['amount_in'])/pow(10, 9)), 6)}"
+            tg_message += f"Price: {round((float(obj['data']['amount_in'])/pow(10, 9))/amount_out, 6)}"
 
         # tg_message += f"Time(UTC): {obj['time']}\n"
         # tg_message += f"Source: <a href='https://www.redoubt.online'> re:doubt</a>"
