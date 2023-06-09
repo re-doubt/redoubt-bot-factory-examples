@@ -74,15 +74,15 @@ async def handler(obj):
             decimals_in = jetton_in[0].get("decimals") if jetton_in[0].get("decimals") else 9
             amount_in = float(obj['data']['amount_in'])/pow(10, decimals_in)
             tg_message += f"Trading: 🔴#SELL\n"
-            tg_message += f"""Amount: {human_format(round(amount_in, 2))} #{jetton_in[0]['symbol']} \n"""
-            tg_message += f"Price: {round((float(obj['data']['amount_out'])/pow(10, 9)) / amount_in, 6)}\n"
+            tg_message += f"""Amount: {human_format(round(amount_in, 4))} #{jetton_in[0]['symbol']} \n"""
+            tg_message += f"Price: {round((float(obj['data']['amount_out'])/pow(10, 9)) / amount_in, 6)}"
 
         elif jetton_out:
             decimals_out = jetton_out[0].get("decimals") if jetton_out[0].get("decimals") else 9
             amount_out = float(obj['data']['amount_out']) / pow(10, decimals_out)
             tg_message += f"Trading: 🟢#BUY\n"
-            tg_message += f"""Amount: {human_format(round(amount_out, 2))} #{jetton_out[0]['symbol']}\n"""
-            tg_message += f"Price: {round(amount_out/(float(obj['data']['amount_out'])/pow(10, 9)), 6)} \n"
+            tg_message += f"""Amount: {human_format(round(amount_out, 4))} #{jetton_out[0]['symbol']}\n"""
+            tg_message += f"Price: {round(amount_out/(float(obj['data']['amount_in'])/pow(10, 9)), 6)}"
 
         # tg_message += f"Time(UTC): {obj['time']}\n"
         # tg_message += f"Source: <a href='https://www.redoubt.online'> re:doubt</a>"
