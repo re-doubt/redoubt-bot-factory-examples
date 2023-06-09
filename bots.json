@@ -202,5 +202,41 @@
         "created_at": "05-05-2023",
         "status": "active",
         "publish": "true"
+    },
+    "TOKEN-INSIDE": {
+        "name": "Token Inside. New TON Jettons and updates",
+        "description": "New TON Jettons and updates",
+        "bot_name": "TOKEN-INSIDE",
+        "channel": "@token_inside",
+        "tags": "Jetton, Anomaly, Burn, Mint",
+        "repository": "",
+        "author": "marsitan",
+        "created_at": "01-01-2023",
+        "status": "active",
+        "publish": "true"
+    },
+    "JETTON-RATES": {
+        "name": "\ud83d\udca5 The latest rate of popular Jettons on TON",
+        "description": "The latest rate of popular and not so popular tokens on TON. Directly from the chain of blocks.\n",
+        "bot_name": "JETTON-RATES",
+        "channel": "@tonnull",
+        "tags": "Jetton, DeDust, Market",
+        "repository": "",
+        "author": "",
+        "created_at": "01-01-2023",
+        "status": "active",
+        "publish": "true"
+    },
+    "DEDUST-SWAPS-FCK": {
+        "name": "DeDust swaps notifier by FCK Foundation",
+        "description": "DeDust swaps notifier by FCK Foundation",
+        "bot_name": "DEDUST-SWAPS-FCK",
+        "channel": "@swapsio",
+        "tags": "Jetton, DeDust, Swaps",
+        "repository": "https://github.com/fck-foundation",
+        "author": "beycoder",
+        "created_at": "01-06-2023",
+        "status": "active",
+        "publish": "true"
     }
 }
