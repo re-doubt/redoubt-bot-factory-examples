@@ -180,7 +180,7 @@
         "publish": "true"
     },
     "JETTON-MARKET-2": {
-        "name": "Jetton Price Alerts",
+        "name": "Jetton Arbitrage Alerts",
         "description": "Jettons possible arbitrage deals for all platfroms (CEXes and DEXes). Real-timenotifications and alerts.",
         "bot_name": "JETTON-MARKET-2",
         "channel": "@JettonArbitrage",
