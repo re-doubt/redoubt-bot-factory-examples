@@ -96,7 +96,7 @@
     "publish": "true"
   },
   {
-    "name": "SwapsForum",
+    "name": "FCK Swaps Forum",
     "description": "DeDust swaps notifications in FCK forum",
     "bot_name": "SWAPS-FCK-FORUM",
     "channel": "@SwapsForum",
