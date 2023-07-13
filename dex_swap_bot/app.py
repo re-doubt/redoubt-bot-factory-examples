@@ -7,7 +7,6 @@ from loguru import logger
 from redoubt_agent import RedoubtEventsStream
 from constants import *
 
-REDOUBT_API_KEY = "ab718bf8264bf5670fd9666f3ef0150ea0b8aa6b2bd32246402d6ee0ea42e4e3"
 stream = RedoubtEventsStream(api_key=REDOUBT_API_KEY)
 
 def send_message_to_telegram(message=None, api_url=TG_API_URL, chat_id=CHAT_ID, parse_mode='HTML'):
@@ -54,13 +53,12 @@ async def handler(obj):
     jetton_in = asset_in_data['redoubt_jetton_master']
     jetton_out = asset_out_data['redoubt_jetton_master']
 
-    # TG Message # FIXME when pool not connected to TON!!! jetton_in and jetton_out!!!
     try:
         tg_message =  f"""Platform: {obj['event_target']}\n"""
-        tg_message += f"""{asset_in_data['symbol']}/{asset_out_data['symbol']}\n"""
         tg_message += f"""User: <a href='{TONVIEWER + obj['data']['swap_user']}'> {obj['data']['swap_user'][:2] + '..' + obj['data']['swap_user'][-4:]} </a>\n"""
 
         if jetton_in and jetton_out:
+            tg_message += f"""Pool: {jetton_in[0]['symbol']}/{jetton_out[0]['symbol']}\n"""
             decimals_in = jetton_in[0].get("decimals") if jetton_in[0].get("decimals") else 9
             amount_in = float(obj['data']['amount_in']) / pow(10, decimals_in)
             decimals_out = jetton_out[0].get("decimals") if jetton_out[0].get("decimals") else 9
@@ -71,6 +69,7 @@ async def handler(obj):
                          f"#{jetton_in[0]['symbol']}: {human_format(round(amount_in, 4))}"
 
         elif jetton_in:
+            tg_message += f"""Pool: {jetton_in[0]['symbol']}/TON\n"""
             decimals_in = jetton_in[0].get("decimals") if jetton_in[0].get("decimals") else 9
             amount_in = float(obj['data']['amount_in'])/pow(10, decimals_in)
             tg_message += f"Trading: 🔴#SELL\n"
@@ -78,6 +77,7 @@ async def handler(obj):
             tg_message += f"Price: {round((float(obj['data']['amount_out'])/pow(10, 9)) / amount_in, 6)}"
 
         elif jetton_out:
+            tg_message += f"""Pool: TON/{jetton_out[0]['symbol']}\n"""
             decimals_out = jetton_out[0].get("decimals") if jetton_out[0].get("decimals") else 9
             amount_out = float(obj['data']['amount_out']) / pow(10, decimals_out)
             tg_message += f"Trading: 🟢#BUY\n"
