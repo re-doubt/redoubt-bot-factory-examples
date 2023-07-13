@@ -53,6 +53,12 @@ async def handler(obj):
     jetton_in = asset_in_data['redoubt_jetton_master']
     jetton_out = asset_out_data['redoubt_jetton_master']
 
+    if jetton_in[0]['address'] in WRAPPED_COINS:
+        jetton_in = []
+
+    if jetton_out[0]['address'] in WRAPPED_COINS:
+        jetton_out = []
+
     try:
         tg_message =  f"""Platform: {obj['event_target']}\n"""
         tg_message += f"""User: <a href='{TONVIEWER + obj['data']['swap_user']}'> {obj['data']['swap_user'][:2] + '..' + obj['data']['swap_user'][-4:]} </a>\n"""
