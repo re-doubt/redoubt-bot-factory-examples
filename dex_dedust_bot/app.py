@@ -26,7 +26,6 @@ def human_format(num):
 
 async def handler(obj):
     logger.info(obj)
-
     asset_in_data = await stream.execute("""
         query asset_in {
             redoubt_jetton_master(where: {address: {_eq: "%s"}}) {
@@ -90,7 +89,7 @@ async def handler(obj):
 
 async def run_bot():
     logger.info("Running new DeDust Swaps bot")
-    await stream.subscribe(handler, scope="DEX", event_type='Swap')
+    await stream.subscribe(handler, scope="DEX", event_type='Swap', event_target='dedust')
 
 
 if __name__ == "__main__":

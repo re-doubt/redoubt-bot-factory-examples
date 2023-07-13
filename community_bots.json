@@ -94,5 +94,17 @@
     "created_at": "01-04-2023",
     "status": "active",
     "publish": "true"
+  },
+  {
+    "name": "SwapsForum",
+    "description": "DeDust swaps notifications in FCK forum",
+    "bot_name": "SWAPS-FCK-FORUM",
+    "channel": "@SwapsForum",
+    "tags": "Jetton, DeDust, Swaps",
+    "repository": "",
+    "author": "beycoder",
+    "created_at": "01-04-2023",
+    "status": "active",
+    "publish": "true"
   }
 ]
